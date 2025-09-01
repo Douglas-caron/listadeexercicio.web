@@ -1,18 +1,25 @@
-# Frontend Web (Angular) - Projeto Lista de Tarefas
 
-Este repositório contém o cliente web para a aplicação de Lista de Tarefas. A interface foi construída com Angular e consome os dados da API REST central.
+# Gerenciador de Tarefas - Cliente Web (Angular)
 
-**Importante:** A API backend precisa estar em execução para que esta aplicação funcione.
+Esta é a interface de usuário web para o sistema Gerenciador de Tarefas, desenvolvida com **Angular** e **TypeScript**. Ela oferece uma experiência rica e interativa para o usuário, consumindo todos os dados da API REST dedicada.
 
-- **Link para a API Backend:** `https://github.com/RafaelSilvaGomes/lista-tarefas-api`
+### ⚠️ Pré-requisito Essencial
+
+Para que esta aplicação funcione corretamente, é **indispensável** que a API backend esteja em execução. A interface precisa se comunicar com o servidor para buscar, criar, editar e deletar tarefas.
+
+-   **Link para o Repositório da API:** `https://github.com/DouglasCaron/lista-tarefas-api`
 
 ---
 
-### Tecnologias Utilizadas
+### 🛠️ Ferramentas e Tecnologias
+
 -   Angular
 -   TypeScript
 -   HTML / CSS
 
+### 🚀 Como Rodar o Projeto Localmente
+
+Siga os passos abaixo para executar a interface web em seu ambiente de desenvolvimento.
 ### Como Executar
 1.  **Pré-requisitos:**
     -   Node.js e Angular CLI instalados.
@@ -22,6 +29,3 @@ Este repositório contém o cliente web para a aplicação de Lista de Tarefas. 
 4.  Instale as dependências: `npm install`
 5.  Execute a aplicação: `ng serve --open`
 6.  A aplicação estará disponível em `http://localhost:4200`.
-
----
-**Autor:** Rafael Silva Gomes
